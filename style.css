@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* ************** Header ***********************/
+header {
+  background-color: #1f2937;
+  padding-bottom: 1rem;
+}
+
+nav {
+  padding: 0.7rem 2rem 0.7rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+ul li {
+  list-style: none;
+  font-size: 22px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f9faf8;
+  cursor: pointer;
+  border-bottom: solid whitesmoke;
+}
+
+.header-link {
+  margin-left: auto;
+}
+
+header p,
+header a {
+  color: #f9faf8a6;
+}
+
+header h1,
+.logo {
+  color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 48px;
+  border-bottom: solid #f9faf89f;
+}
+
+.header-img {
+  width: auto;
+  height: 600px;
+  border-radius: 80px;
+  padding: 2rem 0 1rem 1rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  line-height: 1.8;
+  font-size: 18px;
+  width: 600px;
+}
+
+.buy-btn {
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-size: 22px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.buy-btn:hover {
+  color: #3882f6;
+  background-color: #f9faf8;
+  cursor: pointer;
+}
+/***********************************************/
