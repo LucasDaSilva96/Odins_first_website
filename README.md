@@ -2,6 +2,6 @@
 
 My first website from the Odins Project.
 
-## Image - Creds:
+## Image - Credit:
 
-Unsplash -
+Unsplash - Filip Baotić
