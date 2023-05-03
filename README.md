@@ -4,4 +4,5 @@ My first website from the Odins Project.
 
 ## Image - Credit:
 
-Unsplash - Filip Baotić
+Unsplash - provided with all the beautiful images.
+Unsplash - Filip Baotić.
