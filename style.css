@@ -22,12 +22,11 @@ nav {
   background-color: #1f2937;
   z-index: 1;
   width: 100%;
-  padding-bottom: 1rem;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.7rem 2rem 0.7rem 2rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
   transition: all 0.5s ease-in;
 }
 
@@ -93,7 +92,7 @@ header h1,
 
 .header-img-container:hover .header-img,
 .header-img-container:focus .header-img {
-  transform: scale(1.3);
+  transform: scale(1.15);
 }
 
 .header-container {
