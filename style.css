@@ -10,6 +10,10 @@ header {
   padding-bottom: 2rem;
 }
 
+strong {
+  border-bottom: solid #f9faf8;
+}
+
 nav {
   padding: 0.7rem 2rem 0.7rem 2rem;
 }
@@ -70,7 +74,7 @@ header h1,
   background-color: #1f2937;
   background-position: center;
   background-size: cover;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 
 .header-img-container:hover .header-img,
@@ -109,11 +113,135 @@ header h1 {
   padding: 1rem;
   border-radius: 0.5rem;
   transition: all 0.5s;
+  border: none;
+  font-weight: bold;
 }
 
 .buy-btn:hover {
   color: #3882f6;
   background-color: #f9faf8;
   cursor: pointer;
+  transform: scale(1.1);
 }
+/***********************************************/
+
+/********************* Section 1 ***************/
+
+#sec-1 {
+  background-color: whitesmoke;
+}
+
+.sec-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+  padding: 2rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.box {
+  height: 500px;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.img-box {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.sec-1-img {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  /* border: solid 3px #3882f6; */
+}
+
+.text-box {
+  width: 300px;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.text-box p {
+  line-height: 1.5;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/***********************************************/
+
+/********************* Section 2 ***************/
+#sec-2 {
+  background-color: #e5e7eb;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.container-2 {
+  border-radius: 2rem;
+  width: 500px;
+  height: 600px;
+  background-image: url(https://images.unsplash.com/photo-1619510077427-fb14470ce48e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fElwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  transition: all 0.7s;
+}
+
+.container-3 {
+  border-radius: 2rem;
+  color: #f9faf8;
+  width: 500px;
+  height: 600px;
+  background-image: url(https://images.unsplash.com/photo-1592821266573-4c773cfc5507?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fElwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60://images.unsplash.com/photo-1523329110005-297cf111f8de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fElwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.6s;
+}
+
+.container-2 p,
+.container-3 p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 24px;
+  padding: 1rem;
+}
+
+.container-2:hover,
+.container-3:hover {
+  transform: scale(1.1);
+}
+/***********************************************/
+/********************* Section 3 ***************/
+
 /***********************************************/
