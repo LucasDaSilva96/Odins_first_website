@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ************** Header ***********************/
 header {
   background-color: #1f2937;
@@ -298,5 +302,14 @@ header h1 {
   background-color: #e5e7eb;
   color: black;
   cursor: pointer;
+}
+/***********************************************/
+/********************* Footer ***************/
+footer {
+  margin-top: 1rem;
+  background-color: #1f2937;
+  color: whitesmoke;
+  padding: 1rem;
+  text-align: center;
 }
 /***********************************************/
