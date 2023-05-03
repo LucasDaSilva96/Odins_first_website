@@ -243,5 +243,60 @@ header h1 {
 }
 /***********************************************/
 /********************* Section 3 ***************/
+#sec3 {
+  background-color: whitesmoke;
+}
 
+.center-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container-4 {
+  padding: 1rem;
+  width: 800px;
+  height: 200px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2rem;
+  transition: all 0.5s;
+}
+
+.text-wrapper {
+  width: 500px;
+}
+
+.text-wrapper p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.buy-btn-2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #e5e7eb;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+  transition: all 0.3s;
+}
+
+.container-4:hover {
+  transform: scale(1.06);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.buy-btn-2:hover {
+  background-color: #e5e7eb;
+  color: black;
+  cursor: pointer;
+}
 /***********************************************/
