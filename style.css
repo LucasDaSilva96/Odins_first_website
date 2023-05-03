@@ -11,7 +11,7 @@ html {
 /* ************** Header ***********************/
 header {
   background-color: #1f2937;
-  padding-bottom: 2rem;
+  padding: 4rem 0 2rem 0;
 }
 
 strong {
@@ -19,10 +19,20 @@ strong {
 }
 
 nav {
+  background-color: #1f2937;
+  z-index: 1;
+  width: 100%;
+  padding-bottom: 1rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.7rem 2rem 0.7rem 2rem;
+  transition: all 0.5s ease-in;
 }
 
 nav ul {
+  margin-left: auto;
   display: flex;
   gap: 1rem;
 }
@@ -34,6 +44,7 @@ ul li {
 
 li a {
   text-decoration: none;
+  color: #e5e7eb;
 }
 
 nav ul li a {
@@ -44,10 +55,6 @@ nav ul li a:hover {
   color: #f9faf8;
   cursor: pointer;
   border-bottom: solid whitesmoke;
-}
-
-.header-link {
-  margin-left: auto;
 }
 
 header p,
@@ -93,6 +100,7 @@ header h1,
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .header-text-container {
@@ -274,6 +282,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   border-radius: 2rem;
   transition: all 0.5s;
 }
@@ -320,3 +329,26 @@ footer {
   text-align: center;
 }
 /***********************************************/
+
+/********************** Media Queries **************************/
+@media (max-width: 1350px) {
+  .container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .center-2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
