@@ -1,6 +1,6 @@
 # Odins_first_website
 
-## Live-code: https://lucasdasilva96.github.io/Odins_first_website/
+## Live-code: https://lucasdasilva96.github.io/Odins_first_website/index.html
 
 My first website from the Odins Project.
 
